@@ -1,0 +1,75 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[polish]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8x]{inputenc}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{graphicx}
+
+\addtolength{\hoffset}{-1.5cm}
+\addtolength{\marginparwidth}{-1.5cm}
+\addtolength{\textwidth}{3cm}
+\addtolength{\voffset}{-1cm}
+\addtolength{\textheight}{2.5cm}
+\setlength{\topmargin}{0cm}
+\setlength{\headheight}{0cm}
+
+\begin{document}
+
+\title{Dokumentacja. \\ Polityka bezpieczeństwa sądu}
+
+\author{Nika Lytvynchuck, Łyszczarz Klaudia, Bobak Grzegorz}
+\date{\today}
+
+\maketitle
+
+\begin{abstract}
+\centering{Zarys polityki bezpieczeństwa systemów informatycznych w sądzie}
+\end{abstract}
+
+\newpage
+
+\tableofcontents
+\listoftables
+\listoffigures
+
+\newpage
+
+\section{Tytuł}
+\section{Cel}
+Celem projektu jest opracowanie kompleksowej dokumentacji obejmującej politykę bezpieczeństwa systemów informatycznych w sądzie, aby zapewnić ich niezawodność oraz bezpieczeństwo.
+
+\section{Zakres}
+\subsection{Analiza wymagań}
+\input{analizawymagan}
+\subsection{Wymagania funkcjonalne i niefunkcjonalne}
+\input{wymagania}
+\subsection{Dobór technologii}
+\input{technologie}
+
+\section{Polityka bezpieczeństwa}
+\subsection{Zarządzanie dostępem}
+\input{1.dostep}
+\subsection{Zarządzanie hasłami}
+\input{2.hasla}
+\subsection{Aktualizacje i zarządzania poprawkami}
+\input{3.update}
+\subsection{Monitorowanie i wykrywanie zagrożeń}
+\input{4.zagrozenia}
+\subsection{Ochrona danych}
+\input{5.dane}
+\subsection{Zarządzanie urządzeniami i stacjami roboczymi}
+\input{6.urzadzenia}
+\subsection{Edukacja i świadomość użytkowników}
+\input{7.edukacja}
+\subsection{Polityka reagowania na incydenty}
+\input{8.incydenty}
+\subsection{Bezpieczne korzystanie z sieci}
+\input{9.siec}
+\subsection{Polityka zarządzania urządzeniami mobilnymi}
+\input{10.urz-mobilne}
+
+
+\input{bibliografia}
+
+\end{document}

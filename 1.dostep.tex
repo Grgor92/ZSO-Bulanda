@@ -1,0 +1,53 @@
+\begin{itemize}
+\item Ustalanie zasad dostępu do systemu (zasada najmniejszych uprawnień – Least Privilege).
+    \item Dostęp do zasobów tylko z sieci wewnętrznej. \newline
+    Nowy użytkownik dostaje minimalne uprawnienia, które można poszerzyć w przypadku potrzeby które wynikną w trakcie korzystania z systemów. 
+    
+    \item Definiowanie ról i grup użytkowników z odpowiednimi uprawnieniami.
+    \newline Użytkownik zostaje dołączony do grupy użytkowników ze względu na zajmowane stanowisko. Każda grupa użytkowników dziedziczy uprawnienia po wyższej, lecz są one ograniczone w zależności od zajmowanego stanowiska: 
+    
+    \begin{itemize}
+        \item{Pracownicy BOI.}
+        \begin{itemize}
+            \item {Dostęp do danych spraw na poziomie odczytu}
+        \end{itemize}
+        
+        \item{Sędziowie}
+        \begin{itemize}
+            \item {dostęp do systemu repertoryjno-biurowy na poziomie odczytu danych sprawy}
+            \item {możliwość dodawania oraz edycji orzeczeń dot. spraw}
+        \end{itemize}
+  
+        \item{Protokolanci}
+        \begin{itemize}
+            \item {Dodawanie oraz edycja przebiegu i wyników rozpraw}
+            \item {Wprowadzenie oraz edycja terminów rozpraw}
+            \item {Wysyłanie korespondencji do stron sprawy}
+        \end{itemize}
+        
+        \item{Pracownicy Sekretariatu}
+        \begin{itemize}
+            \item {Rejestracja spraw oraz ich szczegółów}
+            \item {Edycja danych sprawy w zakresie terminów rozpraw,ich wyników oraz wniosków wpływających w sprawach}
+            \item {Zarządzanie korespondencją (wysłana, odebrana, wysyłanie akt do biegłych}
+            \item {Dostęp do wykazów i kontrolek prowadzonych w wydziale}
+        \end{itemize}
+        
+        \item{Kierownicy Sekretariatu}
+        \begin{itemize}
+            \item {Tworzenie, edycja oraz usuwanie użytkowników}
+            \item {Tworzenie grup użytkowników oraz nadawanie uprawnień w systemie repertoryjno-biurowym}
+            \item {Uprawnienia do wykazów statystycznych}
+        \end{itemize}
+    \end{itemize}
+    .
+     \newline Osobną grupą użytkowników jest Biuro podawcze.
+    \begin{itemize}
+        \item {Biuro podawcze}
+        \begin{itemize}
+            \item {Wysyłanie i odbieranie korespondencji}
+        \end{itemize}
+    \end{itemize}
+
+    \item Regularne przeglądy uprawnień użytkowników i ich aktualizacja.
+\end{itemize}
